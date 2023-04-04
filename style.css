@@ -30,4 +30,5 @@ body {
     color: crimson;
     font-size: 50px;
     letter-spacing: 8px;
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, 1);
 }
