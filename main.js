@@ -42,6 +42,17 @@ const matchPokemonSearch = () => {
     })
 };
 
+//A function to get ALL pokemons  defined in API
+
+const getPokemon = async () => {
+    const pokemon_count = 151; //151 pokemons are defined in API
+    for (let i = 1; i <= pokemon_count; i++) {
+      await fetchPokemon(i)
+    }
+}
+
+getPokemon();
+
 //Event Listeners
 
 searchBtn.addEventListener('click', () => {
