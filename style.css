@@ -1,0 +1,11 @@
+@font-face {
+    font-family: PokemonHeadFont;
+    src: url(/assets/Pokemon\ Solid.ttf);
+}
+
+.caption {
+    font-family: PokemonHeadFont;
+    color: crimson;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
