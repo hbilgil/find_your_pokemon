@@ -25,6 +25,23 @@ const search = document.querySelector('.search');
 const searchInput = document.querySelector('.searchInput');
 const searchBtn = document.querySelector('.searchBtn');
 
+//FUNCTION DECLARATIONS
+
+//A function for matching searched Value with pokemons defined in API
+
+const matchPokemonSearch = () => {
+    const searchValue = searchInput.value.toLowerCase();
+    const pokemonNames = document.querySelectorAll('.poke-name');
+  
+    pokemonNames.forEach((pokemonName) => {
+      pokemonName.parentElement.parentElement.style.display = 'block'
+  
+      if (!pokemonName.innerHTML.toLowerCase().includes(searchValue)) {
+        pokemonName.parentElement.parentElement.style.display = 'none'
+      }
+    })
+};
+
 //Event Listeners
 
 searchBtn.addEventListener('click', () => {
