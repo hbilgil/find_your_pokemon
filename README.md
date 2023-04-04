@@ -20,6 +20,14 @@ The main goal of this project is to make a Pokemon Index site using PokeApi of T
 
 ## Project Reviews
 
-### Desktop & Tablets (>650px)
+### Desktop (>1145px)
 
-### Mobile (<650px)
+![](/assets/Desktop.gif)
+
+### Tablets (>863px)
+
+![](/assets/Tablet.gif)
+
+### Mobile (<864px)
+
+![](/assets/Mobile.gif)
