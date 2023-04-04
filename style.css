@@ -1,7 +1,29 @@
+/*variable creation or imports*/
+
 @font-face {
     font-family: PokemonHeadFont;
     src: url(/assets/Pokemon\ Solid.ttf);
 }
+
+/*General styling rules*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sniglet', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #00aaf8, #1fbcde, #74c6c3, #acccba, #cfd2cb);
+}
+
+/*Header sec*/
 
 .caption {
     font-family: PokemonHeadFont;
