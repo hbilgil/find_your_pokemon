@@ -18,3 +18,11 @@ const bg_color = {
     ice: '#66CCFF',
 }
 
+//DOM element declarations
+
+const poke_container = document.querySelector('.poke-container');
+const search = document.querySelector('.search');
+const searchInput = document.querySelector('.searchInput');
+const searchBtn = document.querySelector('.searchBtn');
+
+
